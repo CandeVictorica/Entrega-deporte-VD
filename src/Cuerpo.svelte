@@ -23,42 +23,42 @@
   <div class="brazo-izquierdo">
     {#if atleta.Brazos < 33}
       <img
-        src="./images/Brazo izq min.svg"
+        src="/images/Brazo izq min.svg"
         alt="brazo"
         style="width: 50%;"
       />
     {:else if (atleta.Brazos >= 33 && atleta.Brazos < 66)}
       <img
-        src="./images/Brazo izq med.svg"
+        src="/images/Brazo izq med.svg"
         alt="brazo"
         style="width: 70%;"
       />
     {:else}
-      <img src="./images/Brazo izq max.svg" alt="brazo" />
+      <img src="/images/Brazo izq max.svg" alt="brazo" />
     {/if}
   </div>
   <div class="brazo-derecho">
     {#if atleta.Brazos < 33}
       <img
-        src="./images/Brazo der min.svg"
+        src="/images/Brazo der min.svg"
         alt="brazo"
         style="width: 50%;"
       />
     {:else if (atleta.Brazos >= 33 && atleta.Brazos < 66)}
       <img
-        src="./images/Brazo der med.svg"
+        src="/images/Brazo der med.svg"
         alt="brazo"
         style="width: 70%;"
       />
     {:else}
-      <img src="./images/Brazo der max.svg" alt="brazo" />
+      <img src="/images/Brazo der max.svg" alt="brazo" />
     {/if}
   </div>
   <div class="piernas">
     {#if atleta.Piernas < 67}
-      <img src="public/images/Piernas min.svg" alt="brazo" />
+      <img src="./images/Piernas min.svg" alt="brazo" />
     {:else if (atleta.Piernas >= 67 && atleta.Piernas < 84)}
-      <img src="public/images/Piernas med.svg" alt="brazo" />
+      <img src="./images/Piernas med.svg" alt="brazo" />
     {:else}
       <img src="./images/Piernas max.svg" alt="brazo" />
     {/if}
