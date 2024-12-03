@@ -50,7 +50,7 @@
   <!-- <h2 class="subtitulo">Desarrollo muscular deportivo - Referencias</h2> -->
   <br />
   <img
-    src="public/images/Refe primer graf.png"
+    src="./images/Refe primer graf.png"
     alt="referencias primer grafico"
     style="width: 50%; align-content:center; display:block; margin-left: auto; margin-right:auto;"
   />
@@ -134,7 +134,7 @@
     Los deportes tienen distintos niveles de fuerza, velocidad máxima y
     resistencia aeróbica que influyen el moldeado del atleta.
   </p>
-  <img src="public/images/final vel fuerza resi.png" alt="Habilidades"
+  <img src="./images/final vel fuerza resi.png" alt="Habilidades"
   style="width: 40%; display: block; margin-left: auto;margin-right: auto; margin-top: 3%; margin-bottom: 2%;">
   <div
     style="min-height:685px; display:block; margin-left: auto; margin-right:auto; margin-top: 5%;"
@@ -322,43 +322,43 @@
   <div class="result">
     {#if slider1 >= 0 && slider1 < 20 && slider2 >= 33 && slider2 < 49 && slider3 >= 80 && slider3 <= 99}
       <p>Gimnasia Piso</p>
-      <img src="/images/gimnasia piso.png" alt="Grafico" />
+      <img src="./images/gimnasia piso.png" alt="Grafico" />
     {:else if slider1 >= 0 && slider1 < 20 && slider2 >= 65 && slider2 <= 80 && slider3 >= 60 && slider3 <= 79}
       <p>Hockey sobre Césped</p>
-      <img src="/images/Hockey.png" alt="Grafico" />
+      <img src="./images/Hockey.png" alt="Grafico" />
     {:else if slider1 >= 20 && slider1 < 40 && slider2 >= 49 && slider2 <= 64 && slider3 >= 80 && slider3 <= 99}
       <p>Natación</p>
-      <img src="/images/natacion.png" alt="Grafico" />
+      <img src="./images/natacion.png" alt="Grafico" />
     {:else if slider1 >= 20 && slider1 < 40 && slider2 >= 81 && slider2 <= 100 && slider3 >= 40 && slider3 <= 59}
       <p>Carreras de Velocidad</p>
-      <img src="/images/Carrera de velocidad.png" alt="Grafico" />
+      <img src="./images/Carrera de velocidad.png" alt="Grafico" />
     {:else if slider1 >= 20 && slider1 < 40 && slider2 >= 65 && slider2 <= 80 && slider3 >= 60 && slider3 <= 79}
       <p>Fútbol</p>
-      <img src="/images/futbol.png" alt="Grafico" />
+      <img src="./images/futbol.png" alt="Grafico" />
     {:else if slider1 >= 40 && slider1 < 60 && slider2 >= 17 && slider2 <= 32 && slider3 >= 20 && slider3 <= 39}
       <p>Lanzamiento de Disco</p>
-      <img src="/images/Lanzamiento de disco.png" alt="Grafico" />
+      <img src="./images/Lanzamiento de disco.png" alt="Grafico" />
     {:else if slider1 >= 60 && slider1 < 80 && slider2 >= 0 && slider2 < 17 && slider3 >= 20 && slider3 <= 39}
       <p>Lanzamiento de Martillo</p>
-      <img src="/images/Lanzamiento de martillo.png" alt="Grafico" />
+      <img src="./images/Lanzamiento de martillo.png" alt="Grafico" />
     {:else if slider1 >= 80 && slider1 < 100 && slider2 >= 17 && slider2 <= 32 && slider3 >= 0 && slider3 < 20}
       <p>Lanzamiento de Peso</p>
-      <img src="/images/Lanzamiento de pesas.png" alt="Grafico" />
+      <img src="./images/Lanzamiento de pesas.png" alt="Grafico" />
     {:else if slider1 >= 80 && slider1 < 100 && slider2 >= 17 && slider2 <= 32 && slider3 >= 20 && slider3 <= 39}
       <p>Lanzamiento de Jabalina</p>
-      <img src="/images/Lanzamiento de jabalina.png" alt="Grafico" />
+      <img src="./images/Lanzamiento de jabalina.png" alt="Grafico" />
     {:else if slider1 >= 20 && slider1 < 40 && slider2 >= 17 && slider2 <= 32 && slider3 >= 40 && slider3 <= 59}
       <p>Gimnasia Barras</p>
-      <img src="/images/gimnasia barras.png" alt="Grafico" />
+      <img src="./images/gimnasia barras.png" alt="Grafico" />
     {:else if slider1 >= 30 && slider1 < 50 && slider2 >= 33 && slider2 <= 48 && slider3 >= 40 && slider3 <= 59}
       <p>Carreras de Larga Distancia</p>
-      <img src="/images/Carreras de larga distancia.png" alt="Grafico" />
+      <img src="./images/Carreras de larga distancia.png" alt="Grafico" />
     {:else if slider1 >= 40 && slider1 < 60 && slider2 >= 49 && slider2 <= 64 && slider3 >= 40 && slider3 <= 59}
       <p>Carreras de Media Distancia</p>
-      <img src="/images/carreras de media distancia.png" alt="Grafico" />
+      <img src="./images/carreras de media distancia.png" alt="Grafico" />
     {:else if slider1 >= 30 && slider1 < 50 && slider2 >= 49 && slider2 <= 64 && slider3 >= 40 && slider3 <= 59}
       <p>Básquetbol</p>
-      <img src="/images/Basquetbol.png" alt="Grafico" />
+      <img src="./images/Basquetbol.png" alt="Grafico" />
       {:else}
       <p>Simple mortal</p>
     {/if}
