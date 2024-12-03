@@ -137,7 +137,7 @@
   <img src="/images/final vel fuerza resi.png" alt="Habilidades"
   style="width: 40%; display: block; margin-left: auto;margin-right: auto; margin-top: 3%; margin-bottom: 2%;">
   
-  <iframe title="" aria-label="Table" id="datawrapper-chart-zxWxj" src="https://datawrapper.dwcdn.net/zxWxj/1/" scrolling="no" frameborder="0" style="border: none;" width="658" height="685" data-external="1"></iframe>
+  <iframe title="" aria-label="Table" id="datawrapper-chart-zxWxj" src="https://datawrapper.dwcdn.net/zxWxj/1/" scrolling="no" frameborder="0" style="border: none; display:block; margin:0; margin-left:auto; margin-right:auto;" width="100%" height="685" data-external="1"></iframe>
 
   <!-- Slider para controlar la deformación 
   <div class="container">
