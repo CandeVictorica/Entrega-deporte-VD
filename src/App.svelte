@@ -134,7 +134,7 @@
     Los deportes tienen distintos niveles de fuerza, velocidad máxima y
     resistencia aeróbica que influyen el moldeado del atleta.
   </p>
-  <img src="./images/final vel fuerza resi.png" alt="Habilidades"
+  <img src="/images/final vel fuerza resi.png" alt="Habilidades"
   style="width: 40%; display: block; margin-left: auto;margin-right: auto; margin-top: 3%; margin-bottom: 2%;">
   <div
     style="min-height:685px; display:block; margin-left: auto; margin-right:auto; margin-top: 5%;"

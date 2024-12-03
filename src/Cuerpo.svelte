@@ -13,11 +13,11 @@
   class:coreMin={atleta.Core < 33}
   >
     {#if atleta.Espalda_Hombros < 33}
-      <img src="./images/Torzo minimun.svg" alt="Torso" />
+      <img src="/images/Torzo minimun.svg" alt="Torso" />
     {:else if atleta.Espalda_Hombros < 66}
-      <img src="./images/Torzo medium.svg" alt="Torso" />
+      <img src="/images/Torzo medium.svg" alt="Torso" />
     {:else}
-      <img src="./images/Torzo maximun.svg" alt="Torso" />
+      <img src="/images/Torzo maximun.svg" alt="Torso" />
     {/if}
   </div>
   <div class="brazo-izquierdo">
@@ -56,11 +56,11 @@
   </div>
   <div class="piernas">
     {#if atleta.Piernas < 67}
-      <img src="./images/Piernas min.svg" alt="brazo" />
+      <img src="/images/Piernas min.svg" alt="brazo" />
     {:else if (atleta.Piernas >= 67 && atleta.Piernas < 84)}
-      <img src="./images/Piernas med.svg" alt="brazo" />
+      <img src="/images/Piernas med.svg" alt="brazo" />
     {:else}
-      <img src="./images/Piernas max.svg" alt="brazo" />
+      <img src="/images/Piernas max.svg" alt="brazo" />
     {/if}
   </div>
 </div>
